@@ -2,10 +2,10 @@
 // First You Open 
 // Then Click F12
 // https://search.google.com/search-console/removals
-var Website = "https://search.google.com/search-console/removals";
-if (window.location != Website) {
-  window.location = Website;
-}
+// var Website = "https://search.google.com/search-console/removals";
+// if (window.location != Website) {
+//   window.location = Website;
+// }
 
 // MIT License
 
