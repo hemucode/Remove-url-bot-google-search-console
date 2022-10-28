@@ -1,4 +1,132 @@
-var list = ["https://www.needevery.in/search/?&max-results=6",
+// This code is automatic upload google search console Removals Url
+// First You Open 
+// https://search.google.com/search-console/removals
+// Then Click F12
+
+// MIT License
+
+// Copyright (c) 2022 Hemanta Gayen / Needevey.in
+
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
+
+// The above copyright notice and this permission notice shall be included in all
+// copies or substantial portions of the Software.
+
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+// SOFTWARE.
+
+// Number of url listed 
+// Next number add like localStorage.NeedEvery = 10;
+
+localStorage.NeedEvery = 0;
+
+setInterval(()=>{
+  btn =document.querySelector(".U26fgb.O0WRkf.oG5Srb.C0oVfc.kHssdc.tWntE.M9Bg4d.RDPZE[role='button']");
+  x = document.querySelectorAll(".RveJvd.snByac")[13];
+  if(x){
+    if (x.innerText) {
+      if (x.innerText=='SUBMIT REQUEST') {
+        x.click();
+      }
+      if (x.innerText== 'NEXT') {
+        if (document.querySelector("input[placeholder='Enter URL']")) {
+          if (list[localStorage.NeedEvery]) {
+            document.querySelector("input[placeholder='Enter URL']").value = list[localStorage.NeedEvery];
+            console.log(list[localStorage.NeedEvery]);
+            console.log(localStorage.NeedEvery);
+            if (document.querySelector("input[placeholder='Enter URL']").value) {
+              if (btn) {
+                btn.setAttribute('aria-disabled', false);  
+                btn.click();
+                localStorage.NeedEvery++
+              }else{
+                alert("button Next Not Found");
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  y = document.querySelectorAll(".RveJvd.snByac")[4];
+  if(y){
+    if (y.innerText) {
+      if (y.innerText=='SUBMIT REQUEST') {
+        y.click();
+      }
+      if (y.innerText== 'NEXT') {
+        if (document.querySelector("input[placeholder='Enter URL']")) {
+          if (list[localStorage.NeedEvery]) {
+            document.querySelector("input[placeholder='Enter URL']").value = list[localStorage.NeedEvery];
+            console.log(list[localStorage.NeedEvery]);
+            console.log(localStorage.NeedEvery);
+            if (document.querySelector("input[placeholder='Enter URL']").value) {
+              if (btn) {
+                btn.setAttribute('aria-disabled', false);  
+                btn.click();
+                localStorage.NeedEvery++
+              }else{
+                alert("button Next Not Found");
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  z = document.querySelectorAll(".RveJvd.snByac")[14];
+  if(z){
+    if (z.innerText) {
+      if (z.innerText=='SUBMIT REQUEST') {
+        z.click();
+      }
+      if (z.innerText== 'NEXT') {
+        if (document.querySelector("input[placeholder='Enter URL']")) {
+          if (list[localStorage.NeedEvery]) {
+            document.querySelector("input[placeholder='Enter URL']").value = list[localStorage.NeedEvery];
+            console.log(list[localStorage.NeedEvery]);
+            console.log(localStorage.NeedEvery);
+            if (document.querySelector("input[placeholder='Enter URL']").value) {
+              if (btn) {
+                btn.setAttribute('aria-disabled', false);  
+                btn.click();
+                localStorage.NeedEvery++
+              }else{
+                alert("button Next Not Found");
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  if(!document.querySelectorAll(".mjANdc.eEPege")[0]){
+    a = document.querySelectorAll(".RveJvd.snByac")[0];
+    if (a) {
+      if (!document.querySelector("input[placeholder='Enter URL']")) {
+        if (a.innerText) {
+          if (a.innerText =='NEW REQUEST') {
+            a.click();
+          }
+        }
+      }
+    }
+  }
+},2000);
+
+var list = [
+"https://www.needevery.in/search/?&max-results=6",
 "https://www.needevery.in/search/label/business?&max-results=8",
 "https://www.needevery.in/search/label/Temporarily Pauses",
 "https://www.needevery.in/search/label/To Be",
