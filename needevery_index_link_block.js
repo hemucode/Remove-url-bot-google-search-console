@@ -1,6 +1,7 @@
 // This code is automatic upload google search console Removals Url
 // First You Open 
 // https://search.google.com/search-console/removals
+window.location = "https://search.google.com/search-console/removals";
 // Then Click F12
 
 // MIT License
