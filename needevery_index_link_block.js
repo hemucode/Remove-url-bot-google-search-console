@@ -473,7 +473,7 @@ var list = [
 "https://www.needevery.in/search/label/Swachh Bharat",
 "https://www.needevery.in/search/label/Arrested In?m=1",
 "https://www.needevery.in/search/label/Department Seizes",
-"https://www.needevery.in/search/label/Imbalance"" Shouldn't?m=1",
+"https://www.needevery.in/search/label/Imbalance Shouldn't?m=1",
 "https://www.needevery.in/search/label/To Take?m=1",
 "https://www.needevery.in/search/label/Man Arrested?m=1",
 "https://www.needevery.in/search/label/Thackeray's Letter",
