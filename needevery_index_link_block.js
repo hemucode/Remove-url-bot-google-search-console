@@ -32,7 +32,7 @@
 // Number of url listed 
 // Next number add like localStorage.NeedEvery = 10;
 
-localStorage.NeedEvery = 0;
+localStorage.NeedEvery = 325;
 
 setInterval(()=>{
   btn =document.querySelector(".U26fgb.O0WRkf.oG5Srb.C0oVfc.kHssdc.tWntE.M9Bg4d.RDPZE[role='button']");
